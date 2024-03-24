@@ -1,0 +1,46 @@
+body {
+    background-color: #fff;
+    color: #FFF;
+  }
+  
+  
+  #box {
+    width: 100px;
+    margin: 100px;
+    pointer-events:none;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    /* margin: 30px auto; */
+    position: relative;
+  }
+  
+  .box div {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    top: 0;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 40px;
+    width: 80vw;
+    height: 80vh;
+  }
+  
+  .box .side1 {
+    /* background: hsla(0, 100%, 50%, 0.8); */
+    background: #f98b63;
+  }
+
+
+  .box .side6 {
+    /* background: hsla(300, 100%, 50%, 0.8); */
+    background: #494e54;
+  }
+
+  #end {
+    margin: 500px;
+    color: black;
+  }
